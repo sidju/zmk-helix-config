@@ -18,8 +18,8 @@
 
 /* Uncomment this block if using RGB
 &led_strip {
-       chain-length = <6>;
-       // chain-length = <38>; // Uncomment if using both per-key and underglow LEDs
+       // chain-length = <6>; // Uncomment if using only underglow LEDs
+       chain-length = <38>; // Uncomment if using both per-key and underglow LEDs
        // chain-length = <32>; // Uncomment if using only per-key LEDs.
 };
  */
