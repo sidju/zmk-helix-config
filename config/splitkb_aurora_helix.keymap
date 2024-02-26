@@ -23,6 +23,9 @@
   // chain-length = <32>; // Uncomment if using only per-key LEDs.
 };
 
+&sensors {
+  triggers-per-rotation = <72>;
+};
 
 / {
   macros {
