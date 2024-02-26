@@ -98,7 +98,7 @@
         &kp LCTRL &kp LALT &kp LGUI &mo NUMBER &kp BSPC &kp SPACE &kp DEL     &kp TILDE  &kp SPACE &kp RET &mo SYMBOL &kp RGUI   &kp RALT  &kp RCTRL
       >;
       // Encoders, probably in the order of left, right
-      sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN   &inc_dec_kp DOWN UP>;
+      sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN   &inc_dec_kp UP DOWN>;
     };
 
     number_layer {
@@ -117,7 +117,7 @@
         &kp F1           &kp F2  &kp F3     &kp F4     &kp F5     &kp F6    &kp K_LOCK  &trans  &kp F7   &kp F8    &kp F9  &kp F10   &kp F11    &kp F12
         &trans           &trans  &trans     &trans     &trans     &trans    &trans      &trans  &trans   &trans    &trans  &trans    &trans     &trans
       >;
-      sensor-bindings = <&inc_dec_kp C_BRI_INC C_BRI_DN   &inc_dec_kp PG_DN PG_UP>;
+      sensor-bindings = <&inc_dec_kp C_BRI_INC C_BRI_DN   &inc_dec_kp PG_UP PG_DN>;
     };
 
     symbol_layer {
